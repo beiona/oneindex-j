@@ -10,7 +10,7 @@
 	<script src="//cdn.staticfile.org/layer/2.3/layer.js"></script>
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<link rel="shortcut icon" href="https://image.suning.cn/uimg/ZR/share_order/158562104413864293.jpg">
+	<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/beiona/pic/Sound!%20Euphonium/icon.jpg">
 
 	 <style>
 		.mdui-appbar .mdui-toolbar{
