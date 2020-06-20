@@ -6,7 +6,7 @@ class AdminController{
 	  'title_name' => 'Index of /',
 	  'password' => 'oneindex',
 	  'drawer' => '<br>',
-	  'drawer_img' => 'https://image.suning.cn/uimg/ZR/share_order/158562116951626812.jpg',
+	  'drawer_img' => 'https://cdn.jsdelivr.net/gh/beiona/pic/Koe%20no%20Katachi%201080p_20m.gif',
 	  'style'=>'nexmoe',
 	  'onedrive_root' =>'',
 	  'cache_type'=>'secache',
@@ -172,7 +172,7 @@ class AdminController{
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
  			// 调用 https://moeclub.org/onedrive-login 中转
- 			$redirect_uri = 'https://moeclub.org/onedrive-login';
+ 			$redirect_uri = 'https://oneindex.github.io/';
 		}
 		
  		//$oauth_url = 'https://login.microsoftonline.com/common/oauth2/authorize';
