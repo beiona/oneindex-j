@@ -1,3 +1,9 @@
+修改重定向地址166行https://oneindex.github.io/
+和https://portal.azure.com/#home 应用注册里一致
+/www/wwwroot/yu.ming.com/controller/AdminController.php
+
+修改图片的位置13行109行
+/www/wwwroot/yu.ming.com/view/nexmoe/layout.php
 ## 预览地址  
 [od.xkx.me](https://od.xkx.me/)
 
