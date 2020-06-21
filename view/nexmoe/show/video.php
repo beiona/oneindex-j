@@ -45,11 +45,13 @@ else {
 
 const dp = new DPlayer({
 	container: document.getElementById('dplayer'),
-	lang:'zh-cn',
+    autoplay: false,
+    lang: 'zh-cn',
+    hotkey: true,
+    volume: 0.7,
 	video: {
 	    url: '<?php e($downloadUrl);?>',
 	    pic: '<?php @e($item['thumb']);?>',
-	    
 	    type: type,
 	    customType: {
             customHls: function(video, player) {
@@ -58,7 +60,14 @@ const dp = new DPlayer({
                 hls.attachMedia(video);
             },
         },
-	}
+	},
+	subtitle: {
+        url: '<?php $urlparts = pathinfo($url); e($urlparts['dirname'].'/'.$urlparts['filename'].'.vtt');?>',
+        type: 'webvtt',
+        fontSize: '50px',
+        bottom: '1%',
+        color: '#cc6600',
+    }
 });
 </script>
 
