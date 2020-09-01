@@ -126,7 +126,16 @@ function file_ico($item){
 			          <button class="mdui-btn mdui-ripple mdui-btn-icon"><i class="mdui-icon material-icons">file_download</i></button>
 			      </a>
 			</div>
-
+			<div class="Potplayer"  >
+ 			      <a title="Potplayer打开" href=potplayer://https://<?php echo $_SERVER['HTTP_HOST'].get_absolute_path($root.$path).rawurlencode($item['name']);?>>
+			          <button class="mdui-btn mdui-ripple mdui-btn-icon"><i class="mdui-icon material-icons">play_arrow</i></button>
+			      </a>
+			</div>
+			<div class="Nplayer"  >
+ 			      <a title="Nplayer打开" href=nplayer-https://<?php echo $_SERVER['HTTP_HOST'].get_absolute_path($root.$path).rawurlencode($item['name']);?>>
+			          <button class="mdui-btn mdui-ripple mdui-btn-icon"><i class="mdui-icon material-icons">phone_android</i></button>
+			      </a>
+			</div>
 
 
 		</li>
