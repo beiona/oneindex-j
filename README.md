@@ -4,6 +4,13 @@
 
 修改图片的位置13行109行
 /www/wwwroot/yu.ming.com/view/nexmoe/layout.php
+
+
+			$request['url'] = self::$api_url."/me/drive/root".$path.$query;
+			$request['url'] = self::$api_url."/sites/YOUR-SITE-ID/drive/root".$path.$query;
+			
+			
+			
 ## 预览地址  
 [od.xkx.me](https://od.xkx.me/)
 
